@@ -10,6 +10,10 @@ php artisan ui bootstrap --auth
 Install JQuery
 npm install jquery
 
+Install Fontawesome Icons
+npm install font-awesome --save
+Go to resources\sass\app.scss and add the following code
+@import "node_modules/font-awesome/scss/font-awesome.scss";
 
 
 Install Node Package Manager
@@ -45,8 +49,6 @@ Go to resources\app.js and perform the coding as shown in this file....
 Go to view and create a main layout file called welcome.blade.php
 
 Go to welcome.blade.php and create a div tag having id="app"
-
-Add cdn of bootstrap, jquery, popper, fontawsome etc........
 
 Go to welcome.blade.php and add css file in header     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 
