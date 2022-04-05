@@ -1,0 +1,56 @@
+Install new laravel 
+composer create-project laravel/laravel example-app
+
+Install Bootstrap
+composer require laravel/ui
+php artisan ui bootstrap
+php artisan ui bootstrap --auth
+
+
+Install JQuery
+npm install jquery
+
+
+
+Install Node Package Manager
+npm install
+npm run dev
+
+Install Vue.js
+npm install vue@next
+npm run dev
+
+Install Vue.js Loader
+npm install vue-loader@next
+npm run dev
+
+Install Vue.js Router
+npm install vue-router@4
+npm run dev
+
+Install Vue.js Axios
+npm install vue-axios
+npm run dev
+
+Go to webpack.mix.js file and add vue() like the following
+mix.js('resources/js/app.js', 'public/js').vue()
+.postCss('resources/css/app.css', 'public/css',[]);
+
+Go to resources\js and create a folder called components. We create different components here.
+
+Go to resources\js\components and create a main layout file called layout.vue
+
+Go to resources\app.js and perform the coding as shown in this file.... 
+
+Go to view and create a main layout file called welcome.blade.php
+
+Go to welcome.blade.php and create a div tag having id="app"
+
+Add cdn of bootstrap, jquery, popper, fontawsome etc........
+
+Go to welcome.blade.php and add css file in header     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+
+Go to welcome.blade.php and add script file in footer <script src="{{ asset('js/app.js') }}"></script>
+
+To Install Toaster 
+npm install @meforma/vue-toaster
