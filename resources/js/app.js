@@ -6,7 +6,7 @@ import {createApp} from 'vue'
 
 
 // Import main layout file called layout.vue
-import Home from "./components/Home.vue"
+import Cart from "./components/ButtonAddToCart.vue"
 // In you main.js
 
 // Importing toast notifications...
@@ -17,7 +17,7 @@ import Routes from "./routes";
 
 // Create an app instance
 const app=createApp({})
-app.component('home',Home)
+app.component('Cart',Cart)
 
 // Using toaster notifications
 app.use(Toaster)
